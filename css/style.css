@@ -358,7 +358,7 @@ header.sticky{
     cursor: pointer;
 }
 
-.row img{
+.row img {
     max-width: 350px;
     min-width: 100%;
     min-height: 375px;
@@ -366,7 +366,10 @@ header.sticky{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    object-fit: cover; /* Mantém a proporção original e preenche o contêiner */
+    object-position: center; /* Centraliza a imagem */
 }
+
 
 .layer{
     width: 100%;
