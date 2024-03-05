@@ -152,6 +152,16 @@ section{
     margin-bottom: 40px;
 }
 
+.link{
+    color: #111;
+    transition: .5s;
+}
+
+.link:hover{
+    transition: .5s;
+    color: #007bff;
+}
+
 .button{
     display: inline-flex;
     align-items: center;
@@ -278,7 +288,7 @@ header.sticky{
     font-size: var(--p-font);
     color: var(--second-color);
     line-height: 1.8;
-    margin-bottom: 4rem;
+    margin-bottom: 0.5rem;
 }
 
 .services{
